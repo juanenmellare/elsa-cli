@@ -3,7 +3,7 @@
 A simple client to commit messages with a Jira proyect key as prefix...
 
 ```bash
-elsa -c 777 -m "add tests" -p
+elsa -c 777 -m "add tests" -p  # Output: git commit -m "ICDMNG-777: add test" & git push origin ${current_branch}
 ```
 
 ## Setup
