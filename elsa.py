@@ -76,7 +76,7 @@ def _git_push():
     try:
         branch = subprocess.check_output('git rev-parse --abbrev-ref HEAD', shell=True)
         subprocess.check_output('git push origin ' + branch, shell=True)
-        __print_success('elsa pushed successfully on "' + branch)
+        __print_success('elsa pushed successfully on ' + branch)
     except subprocess.CalledProcessError as e:
         __print_error('elsa tried to push but something happen with Gitlab...' + e.output)
         sys.exit()
