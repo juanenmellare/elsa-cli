@@ -20,7 +20,7 @@ Type `elsa`
 ## Commits Examples
 
 ```bash
-elsa -c 777 -m                  # git commit -m "ICDMNG-777"
+elsa -c 777                     # git commit -m "ICDMNG-777"
 
 elsa -c 777 -m "add tests"      # git commit -m "ICDMNG-777: add test"
 
