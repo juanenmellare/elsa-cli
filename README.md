@@ -2,15 +2,22 @@
 
 A simple client to commit messages with a Jira proyect key as prefix...
 
-```bash
-elsa -c 777 -m "add tests" -p  # Output: git commit -m "ICDMNG-777: add test" & git push origin ${current_branch}
-```
-
 ## Setup
 
 - Download "elsa.py" from this repository
 - Move "elsa.py" file in `/usr/local/bin`
 - Grant permit 
+
+## Examples
+
+```bash
+elsa -c 777 -m                  # git commit -m "ICDMNG-777"
+
+elsa -c 777 -m "add tests"      # git commit -m "ICDMNG-777: add test"
+
+elsa -c 777 -m "add tests" -p   # git commit -m "ICDMNG-777: add test" & git push origin ${current_branch}
+```
+
 
 ## Help?
 
