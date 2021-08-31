@@ -5,7 +5,7 @@ A simple client to commit messages with a Jira proyect key as prefix...
 
 ## Install
 
-Grant permits, move "elsa.py" file in /usr/local/bin and rename it as "elsa" withoud the ".py" extension
+Grant permits, move "elsa.py" file in /usr/local/bin and rename it as "elsa" withoud the ".py" extension.
 ```bash
 cd elsa-cli
 chmod a+x elsa.py
@@ -14,7 +14,7 @@ mv elsa.py /usr/local/bin/elsa
 
 ## Startup
 
-Type `elsa`
+Type `elsa` and set the Jira proyect key (set in the current terminal, if you open another you'll have to set it up again).
 
 
 ## Commits Examples
