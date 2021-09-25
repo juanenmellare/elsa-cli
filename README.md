@@ -2,6 +2,8 @@
 
 A simple client to commit messages with a Jira proyect key as prefix...
 
+## Requeriments
+- Python 2.7
 
 ## Install
 
