@@ -7,7 +7,7 @@ A simple client to commit messages with a Jira proyect key as prefix...
 
 ## Install
 
-Grant permits, move "elsa.py" file in /usr/local/bin and rename it as "elsa" withoud the ".py" extension.
+Grant permits, move "elsa.py" file in /usr/local/bin and rename it as "elsa" without the ".py" extension.
 ```bash
 cd elsa-cli
 chmod a+x elsa.py
