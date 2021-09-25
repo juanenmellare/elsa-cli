@@ -102,7 +102,7 @@ def call_commit_args():
 
     message = _build_commit_base_name(arg)
     sub_arg = __get_command_arg(3, False)
-    push_options = [None, "-p", "--push"]
+    push_options = ["-p", "--push"]
     if sub_arg in ["-m", "--message"]:
         commit_message = __get_command_arg(4)
         message = message + ': ' + commit_message
