@@ -1,4 +1,4 @@
-# <img src="https://www.hndfcrane.com/wp-content/themes/dafang_m/images/logo.svg" alt="Elsa" width="75"/> Elsa Client
+# Elsa Client
 
 A simple client to commit messages with a Jira proyect key as prefix...
 
